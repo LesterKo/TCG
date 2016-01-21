@@ -1,0 +1,27 @@
+package Main;
+
+import java.util.Optional;
+
+public class Move {
+
+	private final Action action;
+	private final Optional<Card> card;
+
+	public Move(Optional<Card> card, Action action) {
+		this.card = card;
+		this.action = action;
+	}
+
+	public Optional<Card> getCard() {
+		return card;
+	}
+
+	public Action getAction() {
+		return action;
+	}
+
+	@Override
+	public String toString() {
+		return "Move{" + "card=" + card + ", action=" + action + '}';
+	}
+}
