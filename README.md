@@ -2,3 +2,5 @@
 java -jar tcg.jar
 
 ** tcg.jar file in the release tag **
+
+** the requirement of TCG in the Wiki tag **
